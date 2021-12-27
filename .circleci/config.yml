@@ -39,6 +39,4 @@ workflows:
   version: 2
   build-and-deploy:
     jobs:
-      - build:
-          context:
-            - DOCKER_HUB
+      - build
